@@ -15,11 +15,11 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 65px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.button {
+  background-color: #85bb65; /* Green */
+  border: none;
+  color: black;
+  font-weight: bold;
+  padding: 10px;
+  text-decoration: none;
+  display: flex;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #42C0FB;
+}
+
+.button1 {border-radius: 2px;}
+.button2 {border-radius: 4px;}
+.button3 {border-radius: 8px;}
+.stakenow {border-radius: 12px;}
+.button5 {border-radius: 50%;}
+
+.logo{margin-left: auto; font-size: 15px;}
