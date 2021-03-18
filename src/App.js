@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <button className="button stakenow">Stake Now - Earn 12% APY!</button>
+        <a href="https://staking.harmony.one/validators/mainnet/one1vcye9qvlgjrpfmsv0k925x3fq2z4c26nhefx9k" className="button stakenow">Stake Now - Earn 12% APY!</a>
         <span className="logo">99.99% Uptime - Harmony One Validator</span>
       </header>
       <div className="Hero">
