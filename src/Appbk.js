@@ -1,10 +1,13 @@
 import './App.css';
 import ReactPlayer from 'react-player'
 
+{/*import logo from './logo.svg';*/}
+
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        {/* <img src={logo} className="App-logo" alt="logo" /> */}
         <button className="button stakenow">Stake Now - Earn 12% APY!</button>
         <span className="logo">99.99% Uptime - Harmony One Validator</span>
       </header>
