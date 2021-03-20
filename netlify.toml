@@ -2,6 +2,5 @@
   from = "/stake"
   to = "https://staking.harmony.one/validators/mainnet/one1vcye9qvlgjrpfmsv0k925x3fq2z4c26nhefx9k"
   status = 301
-  force = false
-  query = {path = ":path"}
+  force = true
   conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
