@@ -1,6 +1,5 @@
 import './App.css';
 import ReactPlayer from 'react-player'
-import logo from './logo.svg';
 import stakesmall from './img/stakesmall.png';
 import threeservers from './img/threeservers.png';
 import expert from './img/expert.jpg';
